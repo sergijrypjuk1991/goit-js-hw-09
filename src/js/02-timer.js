@@ -49,7 +49,6 @@ function onClick() {
     refs.seconds.textContent = seconds;
   }, 1000);
 }
-// Репета таймер
 function addLeadingZero(value) {
   return String(value).padStart(2, '0');
 }
